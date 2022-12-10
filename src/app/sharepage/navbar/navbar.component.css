@@ -1,9 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto&display=swap');
+
+.navbar-brand {
+    font-family: 'Cedarville Cursive', cursive;
+}
+
 .navbar-light .navbar-nav .nav-link
 {
-    color: var(--secondary-color);
+    position: absolute;
+    left: 24%;
+    top: 3%;
+    border-radius: 25px;
+    width: 50%;
+    height: 9%;
+    transition: 0.7s all;
 }
+
+.navbar-light .navbar-nav .nav-link:hover {
+    font-weight: 500;
+    color: green;
+    text-shadow: 1px 1px 5px green;
+    transition: 0.7s all;
+}
+
 .navbar-light .navbar-nav .nav-link.active-link
 {
-    color: var(--primary-color);
-    text-decoration: underline;
+    color: green;
+    text-decoration: none;
+    text-shadow: 1px 1px 5px green;
+    font-weight: 500;
 }

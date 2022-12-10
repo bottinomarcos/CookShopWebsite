@@ -2,15 +2,29 @@ form
 {
     margin-top: 10%;
     width: 50%;
+    font-family: 'Cedarville Cursive', cursive;
 }
 img 
 {
-    border-radius: 6px;
-    padding: 10px 20px;
+    border-radius: 25px;
     width: 100%;
     height: 500px;
     object-fit: cover;
+    box-shadow: 1px 0px 10px;
 }
+
+form button {
+    color: green;
+    text-shadow: 1px 0px 10px;
+    transition: 0.7s all;
+}
+
+form button:hover {
+    background: rgb(0, 153, 0);
+    color: black;
+    text-shadow: 1px 0px 10px;
+}
+
 @media screen and (max-width:600px) {
     form 
     {

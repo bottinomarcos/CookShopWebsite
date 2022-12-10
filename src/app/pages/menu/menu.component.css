@@ -15,6 +15,9 @@
     font-size: 18px;
     margin-top: 20px;
     font-weight: bold;
+    font-family: 'Cedarville Cursive', cursive;
+    color: var(--primary-color);
+    text-shadow: 1px 1px 5px;
 }
 .buybtn
 {
@@ -26,4 +29,12 @@
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
+    text-shadow: 1px 1px 5px;
+    transition: 0.7s all;
+}
+
+.buybtn:hover {
+    background-color: black;
+    color: var(--primary-color);
+    text-shadow: 1px 0px 5px;
 }

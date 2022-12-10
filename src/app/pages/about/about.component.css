@@ -1,0 +1,18 @@
+.container h1 {
+    color: green;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 600;
+    text-shadow: 1px 0px 5px;
+}
+
+.container p {
+    position: absolute;
+    text-align: center;
+    top: 27%;
+    left: 8%;
+    background: whitesmoke;
+    border-radius: 25px;
+    padding: 10px 10px;
+    box-shadow: 1px 0px 6px;
+    width: 85%;
+}
